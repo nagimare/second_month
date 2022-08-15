@@ -1,10 +1,10 @@
 from peewee import *
 
 db = PostgresqlDatabase(
-    'countries2',
+    'countries',
     host = 'localhost',
     port = '5432',
-    user = 'cola',
+    user = 'superman',
     password = '123'
 )
 db.connect()
